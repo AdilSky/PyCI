@@ -49,10 +49,10 @@ class ExecutCase(object):
             sendMail = Email()
             mail = sendMail.sendEMail(filename)
             if mail:
-                print("发送成功！")
+                print("发送成功 ！")
                 self.logger.info("邮件发送成功！")
             else:
-                print("发送失败！")
+                print("发送失败 ！")
                 self.logger.info("邮件发送失败！")
         else:
             print ('邮件未发送，如需发送邮件，请打开邮件发送开关！')
