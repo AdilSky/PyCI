@@ -7,7 +7,6 @@ import configparser
 
 import os
 
-
 path = os.path.split(os.path.realpath(__file__))[0]
 configPath = os.path.join(path, 'config.ini')
 
