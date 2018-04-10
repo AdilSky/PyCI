@@ -27,7 +27,7 @@ class Baidu(unittest.TestCase):
     def test_baidu(self):
 
         time.sleep(2)
-        self.driver.find_element_by_id('search-input').send_keys("pyTest")
+        self.driver.find_element_by_id('search-input1').send_keys("pyTest")
 
 
 
